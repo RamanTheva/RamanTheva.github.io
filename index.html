@@ -1,9 +1,91 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raman's Rasberry</title>
+    <link rel="stylesheet" href="./resources/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Lateef:wght@400;600;800&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+</head>
 <body>
-  <h1>Raman</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <a href="#hero"><img id="logo" src="http://clipart-library.com/images/p6iyRnncn.png"/></a>
+         <nav id="header-navbar">
+                <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#art">Art</a></li>
+                <li> <a href="#contact" >Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <div class="text-container">
+            <h1>Hi I'm Raman and Welcome to Garden!</h1>
+            <a id="downward-button" href="#about">
+                <p>Care to smell the roses<br>&darr;</p>
+            </a>
+        </div>
+        </div>
+        <section id="about">
+            <img src="https://cdn-icons-png.flaticon.com/512/9119/9119041.png" alt="Portrait of Me"/>
+            <p>Artist, student and junior front-end developer. Constantly learning more about Javascript, React, HTML & CSS.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-container">
+                <div class="project" id="layout-picker">
+                    <img src="https://cdn-icons-png.flaticon.com/512/10076/10076032.png" alt="img of payout picker project">
+                    <h3>Layout Colour Picker</h3>
+                </div>
+                <div class="project" id="wordle-2">
+                    <h3>Wordle 2</h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/10076/10076058.png" alt="Wordle 2 image"></img>
+                </div>
+            </div>
+        </section>
+        <section id="art">
+            <h2>Art Porfolio</h2>
+            <div id="art-container">
+                <img src="https://pbs.twimg.com/media/Fo4g_j7XEAAWBHV?format=jpg&name=4096x4096"/>
+                <img src="https://pbs.twimg.com/media/FrDDGVZXwAYwk7x?format=jpg&name=large"/>
+                <img src="https://pbs.twimg.com/media/FUAqacxX0AItKa4.jpg"/>
+                <img src="https://pbs.twimg.com/media/FjVucBaX0AACaM_?format=jpg&name=4096x4096"/>
+                <img src="https://pbs.twimg.com/media/Fo9cVcvWICUQX-v?format=jpg&name=4096x4096"/>
+                <img src="https://pbs.twimg.com/media/FnWeJy0XkAA3lwR?format=jpg&name=900x900"/>
+            </div>
+            <img id="centered-image" src="https://pbs.twimg.com/media/FnWeJy0XkAA3lwR?format=jpg&name=900x900"/>
+        </section>
+        <section id="contact">
+            <h2>Contact Me!</h2>
+            <p>Have any question about my work?</p>
+            <p>I would love to hear from you</p>
+            <form action="messages.html" method="post" class="contact form">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" value="name" required>
+                <br>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" value="email" required>
+                <br>
+                <br>
+                <textarea id="message" name="message" cols="30" rows="5" required>Message: </textarea>
+                <br>
+                <input type="submit" value="Send!">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer-contacts">
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/512/2504/2504918.png" alt="instagram"/></a>
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="github"/></a>
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/512/10059/10059135.png" alt="e-mail"/></a>
+        </nav>
+        <p>All Rights Reserved. Site By Raman.</p>
+    </footer>
 </body>
- 
 </html>
