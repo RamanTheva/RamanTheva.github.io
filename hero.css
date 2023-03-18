@@ -1,0 +1,49 @@
+#hero {
+    background-color:#4275bc;
+    width: 100%;
+    text-align: center;
+}
+
+.text-container {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top:0.5em;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .text-container {
+        max-width: 85%;
+    }
+}
+
+
+
+#downward-button {
+    position: relative;
+    margin: 0 auto;
+    top: -1em;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#downward-button a {
+    border: 50px;
+
+}
+#downward-button p {
+    margin: 0;
+    padding: 0.2em 1em;
+    width:fit-content;
+    background-color: rgb(179, 212, 244);
+    border: 50px;
+    border-radius: 10%;
+    border: black;
+
+}
+
+#downward-button p:hover {
+
+}

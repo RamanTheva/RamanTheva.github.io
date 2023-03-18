@@ -1,0 +1,32 @@
+input[type=text] , textarea {
+    border: 2px solid rgb(185, 223, 255);
+    border-radius: 8px;
+    font-size: 1em;
+    color: rgb(149, 153, 157);
+    margin: 0.2em;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    outline: none;
+  }
+
+
+textarea {
+    width: 60%;
+    height: 150px;
+}
+
+input[type=text]:focus , textarea:focus {
+    border: 2px solid rgb(72, 142, 198);
+    color: black;
+}
+
+input[type=submit] {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
